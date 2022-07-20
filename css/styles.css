@@ -1,0 +1,197 @@
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    list-style: 1.5rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* title */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.page-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/*navigation bar*/
+.navbar-brand{
+    padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/*button*/
+
+.dow-btn{
+    margin:10% 2% 10% 0;
+}
+
+/* image */
+
+.title-image{
+    margin-top: 3rem;
+    width:19%;
+    transform: rotate(25deg); 
+    position: absolute;
+    right:23%;
+}
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position:static;
+        width:40%;
+        transform :rotate(0);
+    }
+}
+
+
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color:#fff;
+    position: relative;
+
+}
+.fea-item{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pri-head{
+    text-align: center;
+}
+/* bef_footer */
+
+#bef_footer{
+    text-align: center;
+    background-color: #ff4c68;
+    padding:7% 7% 1% 7%;
+}
+
+.bef-headeee{
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.bef-btn{
+    padding: 5% 2% 5%;
+}
+
+.btn-111{
+    float: left;
+    margin-left:35%;
+}
+
+.btn-222{
+    margin-right:40%;
+}
+
+
+
+/*fotter */
+
+#footer{
+    text-align: center;
+    margin:5% 0%;
+}
+
+a{
+    color:black;
+    padding: 0.5rem;
+}
+
+a:hover{
+    color:#8f8f8f;
+}
+
